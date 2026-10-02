@@ -1,0 +1,48 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+--- Pressing Reset Button ---
+Time: 100000 | State: IDLE (00)
+Time: 155000 | State: READ_SWITCHES (01) | ALU_Ctrl got: 0
+Time: 165000 | State: EXEC_ALU (10)
+Time: 175000 | State: WRITE_LED (11) | LEDs got: 0000
+Time: 185000 | State: IDLE (00)
+Time: 195000 | State: READ_SWITCHES (01) | ALU_Ctrl got: 0
+Time: 205000 | State: EXEC_ALU (10)
+Time: 215000 | State: WRITE_LED (11) | LEDs got: bbbb
+Time: 225000 | State: IDLE (00)
+Time: 235000 | State: READ_SWITCHES (01) | ALU_Ctrl got: 0
+Time: 245000 | State: EXEC_ALU (10)
+Time: 255000 | State: WRITE_LED (11) | LEDs got: bbbb
+Time: 265000 | State: IDLE (00)
+Time: 275000 | State: READ_SWITCHES (01) | ALU_Ctrl got: 0
+Time: 285000 | State: EXEC_ALU (10)
+Time: 295000 | State: WRITE_LED (11) | LEDs got: bbbb
+Time: 305000 | State: IDLE (00)
+Time: 315000 | State: READ_SWITCHES (01) | ALU_Ctrl got: 0
+Time: 325000 | State: EXEC_ALU (10)
+Time: 335000 | State: WRITE_LED (11) | LEDs got: bbbb
+Time: 345000 | State: IDLE (00)
+--- Setting Switches to 0x1234 ---
+Time: 355000 | State: READ_SWITCHES (01) | ALU_Ctrl got: 0
+Time: 365000 | State: EXEC_ALU (10)
+Time: 375000 | State: WRITE_LED (11) | LEDs got: bbbb
+Time: 385000 | State: IDLE (00)
+Time: 395000 | State: READ_SWITCHES (01) | ALU_Ctrl got: 4
+Time: 405000 | State: EXEC_ALU (10)
+Time: 415000 | State: WRITE_LED (11) | LEDs got: bbbb
+Time: 425000 | State: IDLE (00)
+Time: 435000 | State: READ_SWITCHES (01) | ALU_Ctrl got: 4
+Time: 445000 | State: EXEC_ALU (10)
+--- Setting Switches to 0xABCD ---
+Time: 455000 | State: WRITE_LED (11) | LEDs got: bbbb
+Time: 465000 | State: IDLE (00)
+Time: 475000 | State: READ_SWITCHES (01) | ALU_Ctrl got: 4
+Time: 485000 | State: EXEC_ALU (10)
+Time: 495000 | State: WRITE_LED (11) | LEDs got: bbbb
+Time: 505000 | State: IDLE (00)
+Time: 515000 | State: READ_SWITCHES (01) | ALU_Ctrl got: d
+Time: 525000 | State: EXEC_ALU (10)
+Time: 535000 | State: WRITE_LED (11) | LEDs got: bbbb
+Time: 545000 | State: IDLE (00)
+Simulation Complete.
+$finish called at time : 550 ns : File "C:/Users/USER/project_6/project_6.srcs/sim_1/new/tb_fsm.v" Line 55
